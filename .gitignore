@@ -1,0 +1,23 @@
+# Ignore Terraform directories and state files
+*.terraform/  # Ignore the entire .terraform directory
+*.tfstate    # Ignore all state files
+*.tfstate.*  # Ignore backup state files (e.g., .tfstate.backup)
+*.tfvars     # Ignore any tfvars files (often used to store sensitive data)
+crash.log    # Ignore crash logs
+
+# Ignore override files, typically used for local modifications
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore lock file used by Terraform to track provider versions
+.terraform.lock.hcl
+
+# Ignore the specific file "170483226_project.pdf"
+170483226_project.pdf
+
+# You can add specific rules to not ignore particular files (optional)
+# Uncomment below if needed
+# !terraform.tfvars.example   # Example: don't ignore example tfvars file
+
