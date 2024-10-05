@@ -10,7 +10,8 @@ crash.log    # Ignore crash logs
 
 # Ignore the specific file "170483226_project.pdf"
 
-
+170483226_project1_report_clo800.docx
+CLO800-Project_1_S24_ver1.0.pdf
 # You can add specific rules to not ignore particular files (optional)
 # Uncomment below if needed
 # !terraform.tfvars.example   # Example: don't ignore example tfvars file
